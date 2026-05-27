@@ -5,15 +5,15 @@ import {
   OrderTipo,
   type Order
 } from "@workspace/api-client-react";
-import { OrderForm } from "@/components/order-form";
-import { OrderCard } from "@/components/order-card";
-import { FaturamentoModal } from "@/components/faturamento-modal";
-import { GarantiaModal } from "@/components/garantia-modal";
-import { CatalogoModal } from "@/components/catalogo-modal";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Button } from "@/components/ui/button";
+import { OrderForm } from "./order-form";
+import { OrderCard } from "./order-card";
+import { FaturamentoModal } from "./faturamento-modal";
+import { GarantiaModal } from "./garantia-modal";
+import { CatalogoModal } from "./catalogo-modal";
+import { Card, CardContent } from "./card";
+import { Input } from "./input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@./select";
+import { Button } from "./button";
 import { Search, LogOut, Activity, CheckCircle2, AlertTriangle, Clock, Plus, X, Store, User, EyeOff, TrendingUp, Shield, Package, HandCoins } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import { ListOrdersStatus } from "@workspace/api-client-react";
