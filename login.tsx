@@ -2,10 +2,10 @@ import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useLocation } from "wouter";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+import { Button } from "./button";
+import { Input } from "./input";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./card";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "./form";
 import { useToast } from "@/hooks/use-toast";
 import { Wrench } from "lucide-react";
 
