@@ -1,5 +1,9 @@
 import { forwardRef } from "react";
-import { Order } from "@workspace/api-client-react";
+interface Order {
+  modelo: string;
+  servico: string;
+  valor: string | number;
+}
 
 interface ShareCardProps {
   order: Order;
