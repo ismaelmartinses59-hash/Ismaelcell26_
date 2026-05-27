@@ -34,9 +34,6 @@ export default function Status() {
 
   const orders: any[] = [];
 const isLoading = false;
-    { search: codigo },
-    { 
-      query: { 
         enabled: !!codigo,
         queryKey: getListOrdersQueryKey({ search: codigo })
       } 
