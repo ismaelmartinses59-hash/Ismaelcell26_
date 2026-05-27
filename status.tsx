@@ -1,6 +1,5 @@
 import { useParams } from "wouter";
-import { useListOrders, getListOrdersQueryKey } from "@workspace/api-client-react";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "./card";
 import { format } from "date-fns";
 import { ptBR } from "date-fns/locale";
 import { type LucideIcon, Wrench, CheckCircle2, Clock, Activity, AlertTriangle, Smartphone, XCircle } from "lucide-react";
