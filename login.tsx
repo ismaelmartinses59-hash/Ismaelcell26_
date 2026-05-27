@@ -6,7 +6,7 @@ import { Button } from "./button";
 import { Input } from "./input";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./card";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "./form";
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from "./use-toast";
 import { Wrench } from "lucide-react";
 
 const loginSchema = z.object({
