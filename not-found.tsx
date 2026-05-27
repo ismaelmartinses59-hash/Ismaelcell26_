@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@./card;
+import { Card, CardContent } from "./card";
 import { AlertCircle } from "lucide-react";
 
 export default function NotFound() {
