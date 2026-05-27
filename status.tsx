@@ -32,7 +32,8 @@ export default function Status() {
   const params = useParams();
   const codigo = params.codigo;
 
-  const { data: orders, isLoading } = useListOrders(
+  const orders: any[] = [];
+const isLoading = false;
     { search: codigo },
     { 
       query: { 
