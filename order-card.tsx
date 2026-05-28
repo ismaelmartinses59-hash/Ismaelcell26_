@@ -5,11 +5,11 @@ import {
   getListOrdersQueryKey, getGetOrderStatsQueryKey
 } from "@workspace/api-client-react";
 import { useQueryClient } from "@tanstack/react-query";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Card, CardContent } from "./card";
+import { Badge } from "./badge";
+import { Button } from "./button";
+import { Input } from "./input";
+import { Label } from "./label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { format } from "date-fns";
 import { ptBR } from "date-fns/locale";
@@ -18,8 +18,8 @@ import {
   RefreshCw, Pencil, X, Save, Eye, EyeOff, XCircle, User, Shield, Calendar, KeyRound, Copy, Check
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import { ShareCard } from "@/components/share-card";
-import { ShareCardCliente } from "@/components/share-card-cliente";
+import { ShareCard } from "./share-card";
+import { ShareCardCliente } from "./share-card-cliente";
 import { shareOrderAsImage } from "@/lib/share";
 import { SERVICES_BY_LINE, SERVICES_BY_LINE_CLIENTE, ESTIMATED_TIMES } from "@/lib/constants";
 
