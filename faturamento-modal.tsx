@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { useListOrders } from "@workspace/api-client-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { format } from "date-fns";
 import { ptBR } from "date-fns/locale";
