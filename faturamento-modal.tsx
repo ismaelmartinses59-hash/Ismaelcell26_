@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./dialog";
 import { format } from "date-fns";
 import { ptBR } from "date-fns/locale";
 import { TrendingUp, Package, Calendar } from "lucide-react";
