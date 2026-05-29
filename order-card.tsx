@@ -3,8 +3,8 @@ import {
   Order, OrderLinha, OrderStatus,
   useUpdateOrderStatus, useDeleteOrder, useReactivateOrder, useEditOrder,
   getListOrdersQueryKey, getGetOrderStatsQueryKey
-} from "@workspace/api-client-react";
-import { useQueryClient } from "@tanstack/react-query";
+} from "./api-client-react";
+import { useQueryClient } from "./react-query";
 import { Card, CardContent } from "./card";
 import { Badge } from "./badge";
 import { Button } from "./button";
@@ -17,11 +17,11 @@ import {
   Share2, Play, AlertTriangle, CheckCircle2, Loader2, Trash2,
   RefreshCw, Pencil, X, Save, Eye, EyeOff, XCircle, User, Shield, Calendar, KeyRound, Copy, Check
 } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from "./use-toast";
 import { ShareCard } from "./share-card";
 import { ShareCardCliente } from "./share-card-cliente";
-import { shareOrderAsImage } from "@/lib/share";
-import { SERVICES_BY_LINE, SERVICES_BY_LINE_CLIENTE, ESTIMATED_TIMES } from "@/lib/constants";
+import { shareOrderAsImage } from "./share";
+import { SERVICES_BY_LINE, SERVICES_BY_LINE_CLIENTE, ESTIMATED_TIMES } from "./constants";
 
 const GARANTIA_OPTIONS = ["Sem garantia", "7 dias", "30 dias", "90 dias", "6 meses", "1 ano"];
 
