@@ -3,10 +3,10 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./dialog";
 import { Button } from "./button";
 import { Input } from "./input";
 import { Textarea } from "./textarea";
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { useQuery, useMutation, useQueryClient } from "./react-query";
 import { Search, Plus, Pencil, Trash2, Check, X, Share2, Package, AlertTriangle, ShieldAlert, Clock, RefreshCw, XCircle, ShoppingBag, HandCoins, DollarSign, User, Store, Wallet, Undo2 } from "lucide-react";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useToast } from "@/hooks/use-toast";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./select";
+import { useToast } from "./use-toast";
 
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 
