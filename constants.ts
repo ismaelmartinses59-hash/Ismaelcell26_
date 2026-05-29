@@ -1,4 +1,4 @@
-import { OrderLinha } from "@workspace/api-client-react";
+import { OrderLinha } from "./api-client-react";
 
 // ─── Serviços — Lojista (software/desbloqueio) ───────────────────────────────
 export const SERVICES_BY_LINE: Record<OrderLinha, string[]> = {
