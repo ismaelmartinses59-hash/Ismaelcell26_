@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import { Order } from "@workspace/api-client-react";
+import { Order } from "./api-client-react";
 
 interface ShareCardClienteProps {
   order: Order;
