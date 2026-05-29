@@ -5,7 +5,7 @@
  * API specification
  * OpenAPI spec version: 0.1.0
  */
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery } from "./react-query";
 import type {
   MutationFunction,
   QueryFunction,
@@ -14,7 +14,7 @@ import type {
   UseMutationResult,
   UseQueryOptions,
   UseQueryResult,
-} from "@tanstack/react-query";
+} from "./react-query";
 
 import type {
   CreateOrderBody,
