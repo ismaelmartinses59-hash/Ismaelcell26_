@@ -1,5 +1,5 @@
 import html2canvas from "html2canvas";
-import { Order } from "@workspace/api-client-react";
+import { Order } from "./api-client-react";
 
 export async function shareOrderAsImage(
   order: Order,
