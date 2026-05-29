@@ -1,5 +1,4 @@
 import { useState, useMemo } from "react";
-import { useListOrders, useEditOrder, getListOrdersQueryKey, getGetOrderStatsQueryKey, OrderLinha } from "@workspace/api-client-react";
 import { useQueryClient } from "@tanstack/react-query";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./dialog";
 import { Input } from "./input";
@@ -9,7 +8,6 @@ import { Shield, Search, CheckCircle2, Loader2, Smartphone, Calendar, Wrench, Al
 import { useToast } from "@/hooks/use-toast";
 import { format, addDays, isBefore, differenceInDays } from "date-fns";
 import { ptBR } from "date-fns/locale";
-import type { Order } from "@workspace/api-client-react";
 
 const GARANTIA_OPTIONS = ["7 dias", "30 dias", "90 dias", "6 meses", "1 ano"];
 const GARANTIA_OPTIONS_EDIT = ["0 dias", ...GARANTIA_OPTIONS];
