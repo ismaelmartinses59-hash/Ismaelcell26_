@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useLocation } from "wouter";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery } from "./react-query";
 
 import { OrderForm } from "./order-form";
 import { OrderCard } from "./order-card";
